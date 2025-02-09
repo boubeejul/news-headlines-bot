@@ -10,7 +10,7 @@ With a simple `/start`, the bot retrieves the last 5 headlines about a topic of 
 ### Selecting a topic
 ![Headlines preview](https://github.com/user-attachments/assets/ded24c15-e755-441e-82a7-d5339344fe3a)
 
-## How to use this bot
+## Installing
 Rename the file `.env.sample` to `.env` and add your Telegram Bot and NewsAPI tokens/keys.
 
 Create a virtual environment with all dependencies:
@@ -22,3 +22,7 @@ pip install -r requirements.txt
 ```
 
 Run `main.py` and start the bot!
+
+## References
+- [NewsAPI Docs](https://newsapi.org/docs)
+- [python-telegram-bot Wiki](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Bot-API-Forward-Compatibility)
