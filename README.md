@@ -16,8 +16,8 @@ Rename the file `.env.sample` to `.env` and add your Telegram Bot and NewsAPI to
 Create a virtual environment with all dependencies:
 ```
 python -m venv .venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
+source .venv/bin/activate  # Linux/macOS
+.venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
